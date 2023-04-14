@@ -17,6 +17,7 @@
     flex-direction: column;
     gap: 50px;
     background-color: #A51080;
+    flex-wrap: wrap;
 }
 
 nav {
@@ -36,7 +37,6 @@ h3 {
     gap: 50px;
     list-style: none;
     flex-wrap: wrap;
-    
 }
 
 a {
@@ -96,6 +96,8 @@ a {
 .hero-image {
     max-width: 100%;
     max-height: 100%;
+    min-width: 350px;
+    min-height: auto;
     object-fit: cover;
     border: 5px solid #E5E7EB;
     border-radius: 20px;
