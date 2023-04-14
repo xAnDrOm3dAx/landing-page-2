@@ -172,7 +172,7 @@ a {
 }
 
 .quote {
-    text-align: center;
+    text-align: start;
     font-weight: 300;
 }
 .author {
