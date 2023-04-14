@@ -3,4 +3,8 @@
 Project: Landing Page - The Odin Project CSS Foundations Course. Attempt #2.
 
 Images used in this project
-Photo by Anni Roenkae from Pexels: https://www.pexels.com/photo/photo-of-abstract-painting-2693212/
+Photo by Jonathan Borba from Pexels: https://www.pexels.com/photo/dry-sand-scattered-by-neatly-wave-4431922/
+Photo by Anni Roenkae from Pexels: https://www.pexels.com/photo/purple-abstract-art-3109807/
+Photo by Pok Rie from Pexels: https://www.pexels.com/photo/body-of-water-with-rocks-1123483/
+Photo by Anni Roenkae from Pexels: https://www.pexels.com/photo/photo-of-multicolored-illustration-2832533/
+Photo by Jeremy Bishop from Pexels: https://www.pexels.com/photo/sea-nature-water-wave-2397652/
