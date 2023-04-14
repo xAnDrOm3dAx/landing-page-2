@@ -138,8 +138,8 @@ a {
 }
 
 .card-image {
-    width: 200px;
-    height: 200px;
+    width: 220px;
+    height: 220px;
     object-fit: cover;
     border: 4px solid #3695AD;
     border-radius: 20px;
