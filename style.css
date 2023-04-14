@@ -185,5 +185,36 @@ a {
 
 /* section 4 */
 
+.section-4 {
+    padding: 100px 200px;
+    display: flex;
+    justify-content: center;
+    background-color: #A51080;
+}
 
+.signup {
+    display: flex;
+    background-color: #3695AD;
+    flex: 1;
+    justify-content: space-between;
+    padding: 30px;
+    border-radius: 10px;
+    font-size: 18px;
+    color: #E5E7EB
+}
 
+.info-left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.button-2 {
+    width: 150px;
+    font-size: 18px;
+    color: #E5E7EB;
+    border: 3px solid #E5E7EB;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #3695AD;
+}
