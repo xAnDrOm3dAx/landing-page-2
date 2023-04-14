@@ -111,7 +111,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #E5E7EB;
+    background-color: #FFFF;
     gap: 50px;
 }
 
@@ -156,8 +156,30 @@ a {
 
 
 
-/* section3 */
+/* section 3 */
 
+.section-3 {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #E5E7EB;
+    gap: 30px;
+}
+
+.quote {
+    text-align: center;
+    font-weight: 300;
+}
+.author {
+    text-align: end;
+    font-weight: 300;
+}
+
+
+
+
+/* section 4 */
 
 
 
