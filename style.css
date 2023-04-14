@@ -121,12 +121,14 @@ a {
     font-size: 36px;
     color: #A51080;
     text-shadow: 0px 0px 30px #EE58C9;
+    text-align: center;
 }
 
 .cards {
     display: flex;
     width: 100%;
     flex-wrap: wrap;
+    gap: 30px;
 }
 
 .card-image-container {
