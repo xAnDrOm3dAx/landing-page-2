@@ -189,7 +189,7 @@ a {
     padding: 100px 200px;
     display: flex;
     justify-content: center;
-    background-color: #A51080;
+    background-color: #FFFF;
 }
 
 .signup {
@@ -217,4 +217,19 @@ a {
     border-radius: 10px;
     padding: 15px;
     background-color: #3695AD;
+}
+
+
+
+
+/* Footer */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background: #A51080;
+    font-size: 16px;
+    color: #E5E7EB;
 }
