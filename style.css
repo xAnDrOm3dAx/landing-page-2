@@ -12,7 +12,7 @@
 /* section 1 */
 
 .section-1 {
-    padding: 50px;
+    padding: 100px;
     display: flex;
     flex-direction: column;
     gap: 50px;
@@ -107,7 +107,7 @@ a {
 /* section2 */
 
 .section-2 {
-    padding: 50px;
+    padding: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -125,7 +125,7 @@ a {
 
 .cards {
     display: flex;
-    gap: 50px;
+    gap: 100px;
     flex-wrap: wrap;
 }
 
@@ -159,7 +159,7 @@ a {
 /* section 3 */
 
 .section-3 {
-    padding: 50px;
+    padding: 100px;
     display: flex;
     flex-direction: column;
     text-align: center;
