@@ -78,6 +78,7 @@ a {
 
 .button-1 {
     background-color: #3695AD;
+    border: none;
     padding: 15px;
     width: 150px;
     border-radius: 10px;
