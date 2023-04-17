@@ -31,7 +31,7 @@ header .wrapper {
     align-items: center;
     padding-top: 50px;
     flex-wrap: wrap;
-    gap: 25px;
+    gap: 50px;
 }
 
 header h3 {
@@ -42,7 +42,6 @@ header h3 {
     display: flex;
     gap: 100px;
     list-style: none;
-    flex-wrap: wrap;
 }
 
 li a {
