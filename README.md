@@ -2,7 +2,9 @@
 
 Project: Landing Page - The Odin Project CSS Foundations Course. Attempt #2.
 
-I have added two revisions of the first landing page, experimenting with HTML layout using different properties including main, section & wrapper to see if I can achieve a similar outcome. additional files include index-alternative.html & style-alternative.css
+I have added two versions of the landing page, experimenting with HTML layout to see if I can achieve a similar outcomes using different properties. additional files include index-v2.html & style-v2.css
+
+The landing page is version 1. You can access Version 2 by clicking the 'Version 2' link in the nav bar (top right).
 
 Images used in this project
 Photo by Jonathan Borba from Pexels: https://www.pexels.com/photo/dry-sand-scattered-by-neatly-wave-4431922/
