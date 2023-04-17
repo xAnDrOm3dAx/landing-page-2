@@ -9,9 +9,11 @@ body {
 }
 
 .wrapper {
-    max-width: 80%;
+    max-width: 1170px;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }   
 
 
@@ -23,15 +25,16 @@ header {
     background-color: #A51080;
 }
 
-.header .wrapper {
+header .wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-top: 50px;
-    padding-bottom: 25px;
+    flex-wrap: wrap;
+    gap: 25px;
 }
 
-h2 {
+header h3 {
     color: #F9FAF8;
 }
 
@@ -53,17 +56,18 @@ li a {
 
 
 
-/* hero section */
+/* section-1 */
 
-.hero-section {
+#section-1 {
     background-color: #A51080;
 }
 
-.hero-section .wrapper {
+#section-1 .wrapper {
     display: flex;
-    gap: 50px;
-    padding-top: 25px;
+    gap: 150px;
+    padding-top: 50px;
     padding-bottom: 50px;
+    flex-wrap: wrap;
 }
 
 .left-hero {
@@ -71,26 +75,26 @@ li a {
     flex: 1;
     flex-direction: column;
     justify-content: center;
+    align-items: flex-start;
     gap: 40px;
 }
 
-h1 {
+.left-hero h1 {
     color: #F9FAF8;
 }
 
 .left-hero p {
-    padding-bottom: 20px;
     color: #E5E7EB;
+    font-size: 18px;
 }
 
 .button-1 {
-    width: 150px;
-    height: 75px;
+    width: 125px;
+    height: 50px;
     border: none;
     border-radius: 15px;
     background-color: #3695AD;
     font-size: 18px;
-    font-weight: bo;
     color: #E5E7EB;
 }
 
@@ -104,7 +108,7 @@ h1 {
 
 .hero-image {
     max-width: 100%;
-    max-height: auto;
+    max-height: 100%;
     min-width: 350px;
     min-height: auto;
     object-fit: cover;
@@ -116,5 +120,141 @@ h1 {
 
 
 
-/* featured artists */
+/* section-2 */
+ 
+
+#section-2 {
+   background-color: #FFFF;
+}
+
+
+#section-2 .wrapper {
+    gap: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: center;
+}
+
+#section-2 h2 {
+    text-align: center;
+    padding: 0px 0px 50px 0px;
+    color: #E920B7;
+    text-shadow: 0px 0px 30px;
+}
+
+.cards {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.card-image-container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 15px;    
+    justify-content: center;
+    align-items: center;
+}
+
+.card-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 4px solid #3695AD;
+    border-radius: 20px;
+}
+
+.artist {
+    font-size: 18px;
+    color: #E920B7;
+    font-weight: 500;
+    text-shadow: 0px 0px 30px #EE58C9;
+}
+
+
+
+
+/* section-3 */
+
+#section-3 {
+    background-color: #E5E7EB;
+ }
+ 
+ 
+ #section-3 .wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: flex-start;
+ }
+
+ .quote {
+    text-align: start;
+    font-weight: 300;
+}
+.author {
+    text-align: end;
+    font-weight: 300;
+}
+
+
+
+
+
+
+/* section 4 */
+
+#section-4 .wrapper {
+    background-color: #FFFF;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.signup {
+    display: flex;
+    padding: 30px 50px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 18px;
+    color: #E5E7EB;
+    background-color: #3695AD;
+}
+
+.info-left{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.button-2 {
+    width: 150px;
+    height: 75px;
+    font-size: 18px;
+    color: #E5E7EB;
+    border: 3px solid #E5E7EB;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #3695AD;
+}
+
+
+
+
+/* footer */
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background: #A51080;
+    font-size: 14px;
+    color: #E5E7EB;
+}
+
 
