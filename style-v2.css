@@ -155,9 +155,14 @@ li a {
     align-items: center;
 }
 
-.card-image {
+.card-image-container a {
     width: 200px;
     height: 200px;
+}
+
+.card-image {
+    width: 100%;
+    height: 100%;
     object-fit: cover;
     border: 4px solid #3695AD;
     border-radius: 20px;
