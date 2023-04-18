@@ -6,6 +6,8 @@ I have added two versions of the landing page, experimenting with HTML layout to
 
 The landing page is version 1. You can access Version 2 by clicking the 'Version 2' link in the nav bar (top right).
 
+In the v2 html, I implemented the use of div wrappers to define width and center my containers.
+
 Images used in this project
 Photo by Jonathan Borba from Pexels: https://www.pexels.com/photo/dry-sand-scattered-by-neatly-wave-4431922/
 Photo by Anni Roenkae from Pexels: https://www.pexels.com/photo/purple-abstract-art-3109807/
