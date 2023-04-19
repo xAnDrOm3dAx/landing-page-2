@@ -228,11 +228,7 @@ li a {
     background-color: #3695AD;
 }
 
-.info-left{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
+
 .button-2 {
     width: 150px;
     height: 75px;
