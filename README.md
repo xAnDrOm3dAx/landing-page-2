@@ -1,12 +1,14 @@
 # landing-page-2
 
-Project: Landing Page - The Odin Project CSS Foundations Course. Attempt #2.
+The Odin Project- Flexbox
 
-I have added two versions of the landing page, experimenting with HTML layout to see if I can achieve a similar outcomes using different properties. additional files include index-v2.html & style-v2.css
+Project: Landing Page - attempt 2
 
-The landing page is version 1. You can access Version 2 by clicking the 'Version 2' link in the nav bar (top right).
+Technologies Used: HTML & CSS
 
-In the v2 html, I implemented the use of div wrappers to define width and center my containers.
+Introduction: This project involved building a clone of an existing static, non-responsive landing page. I have added two versions of the landing page, experimenting with HTML layout to see if I can achieve a similar outcomes using different properties. Additional files include index-v2.html & style-v2.css
+
+You can access Version 2 by clicking the 'Version 2' link in the nav bar (top right). In the v2 html, I implemented the use of div wrappers to define width and center my containers.
 
 Images used in this project
 Photo by Jonathan Borba from Pexels: https://www.pexels.com/photo/dry-sand-scattered-by-neatly-wave-4431922/
