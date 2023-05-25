@@ -39,7 +39,7 @@ header h3 {
     color: #F9FAF8;
 }
 
-nav .links {
+.links {
     display: flex;
     gap: 100px;
     list-style: none;
