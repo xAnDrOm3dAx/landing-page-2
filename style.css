@@ -230,3 +230,71 @@ footer {
     font-size: 16px;
     color: #E5E7EB;
 }
+
+
+
+
+/* Media queries for responsive layout */
+
+@media (max-width: 768px) {
+    #section-1 {
+        padding: 30px;
+    }
+
+    nav {
+        gap: 30px;
+    }
+
+    .links {
+        gap: 30px;
+        justify-content: flex-end;
+    }
+
+    #hero-section {
+        flex-direction: column;
+    }
+
+    .left-hero {
+        align-items: center;
+        text-align: center;
+    }
+
+    .hero-image-container {
+        margin-top: 30px;
+        order: -1;
+    }
+
+    .hero-image {
+        min-width: 100%;
+    }
+
+    #section-2 {
+        padding: 50px;
+    }
+
+    .cards {
+        justify-content: center;
+    }
+
+    .card-image-container {
+        align-items: center;
+        text-align: center;
+    }
+
+    .card-image {
+        width: 100%;
+        height: auto;
+    }
+
+    #section-3 {
+        padding: 50px;
+    }
+
+    #section-4 {
+        padding: 50px;
+    }
+
+    footer {
+        font-size: 14px;
+    }
+}
