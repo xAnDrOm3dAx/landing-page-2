@@ -22,9 +22,10 @@ body {
 
 nav {
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
     gap: 50px;
+    justify-content: space-between;
+    
 }
 
 h3 {
@@ -37,6 +38,7 @@ h3 {
     gap: 50px;
     list-style: none;
     flex-wrap: wrap;
+    align-items: center;
 }
 
 a {
@@ -71,9 +73,8 @@ a {
     display: flex;
     flex-direction: column;
     flex: 1;
-    gap: 30px;
+    padding-bottom: 30px;
     justify-content: center;
-    align-items: flex-start;
 }
 
 .button-1 {
@@ -242,12 +243,13 @@ footer {
     }
 
     nav {
-        gap: 30px;
+        gap: 30px; 
     }
 
     .links {
         gap: 30px;
-        justify-content: flex-end;
+        display: flex;
+        justify-content: flex-start;
     }
 
     #hero-section {
@@ -273,6 +275,8 @@ footer {
     }
 
     .cards {
+        display: flex;
+        flex-direction: column;
         justify-content: center;
     }
 
@@ -281,7 +285,7 @@ footer {
         text-align: center;
     }
 
-    .card-image {
+    .card-image-container > a {
         width: 100%;
         height: auto;
     }
