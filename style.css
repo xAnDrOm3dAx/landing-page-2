@@ -20,12 +20,19 @@ body {
     flex-wrap: wrap;
 }
 
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #A51080;
+    padding: 30px 100px;
+}
+
 nav {
     display: flex;
     flex-wrap: wrap;
     gap: 50px;
     justify-content: space-between;
-    
 }
 
 h3 {
