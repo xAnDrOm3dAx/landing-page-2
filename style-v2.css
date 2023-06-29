@@ -41,8 +41,9 @@ header h3 {
 
 .links {
     display: flex;
-    gap: 100px;
+    gap: 50px;
     list-style: none;
+    flex-wrap: wrap;
 }
 
 li a {
