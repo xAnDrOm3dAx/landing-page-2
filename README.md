@@ -1,14 +1,12 @@
 # landing-page-2
 
-The Odin Project- Flexbox
+The Odin Project
 
-Project: Landing Page - attempt 2
+Project: Landing Page
 
 Technologies Used: HTML & CSS
 
-Introduction: This project involved building a clone of an existing static, non-responsive landing page. I have added two versions of the landing page, experimenting with HTML layout to see if I can achieve a similar outcomes using different properties. Additional files include index-v2.html & style-v2.css
-
-You can access Version 2 by clicking the 'Version 2' link in the nav bar (top right). In the v2 html, I implemented the use of div wrappers to define width and center my containers.
+Introduction: A concept page that I designed and built to showcase my responsive design skills
 
 Live URL: https://xandrom3dax.github.io/landing-page-2/
 
@@ -18,3 +16,4 @@ Photo by Anni Roenkae from Pexels: https://www.pexels.com/photo/purple-abstract-
 Photo by Pok Rie from Pexels: https://www.pexels.com/photo/body-of-water-with-rocks-1123483/
 Photo by Mikhail Nilov from Pexels: https://www.pexels.com/photo/pink-and-black-mixture-in-close-up-shot-7676848/
 Photo by Jeremy Bishop from Pexels: https://www.pexels.com/photo/sea-nature-water-wave-2397652/
+Photo by Dids from Pexels: https://www.pexels.com/photo/assorted-colored-paint-spills-2911545/
