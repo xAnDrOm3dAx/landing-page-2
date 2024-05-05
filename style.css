@@ -286,17 +286,17 @@ footer {
   }
 
   .section-2-container {
-    padding: 50px;
+    padding: 30px;
   }
 }
 
 @media (max-width: 768px) {
   .section-3-container {
-    padding: 50px;
+    padding: 30px;
   }
 
   .section-4-container {
-    padding: 50px;
+    padding: 30px;
   }
 
   footer {
@@ -306,6 +306,6 @@ footer {
 
 @media (max-width: 480px) {
   .section-1-container {
-    padding: 50px 20px;
+    padding: 50px 30px;
   }
 }
