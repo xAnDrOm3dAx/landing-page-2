@@ -19,9 +19,19 @@ body {
   gap: 15px;
   text-align: center;
 
+  @media (max-width: 1024px) {
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 20px 0;
+  }
+
   h1 {
     font-size: 2.5rem;
     color: #f9faf8;
+
+    @media (max-width: 320px) {
+      font-size: 1.6rem;
+    }
   }
 
   .links-wrapper {
@@ -29,6 +39,11 @@ body {
     gap: 30px;
     list-style: none;
     flex-wrap: wrap;
+
+    @media (max-width: 320px) {
+      justify-content: center;
+      font-size: 0.8rem;
+    }
   }
 
   a {
@@ -42,8 +57,11 @@ body {
 .section-1-container {
   padding: 100px;
   background-color: #a51080;
-}
 
+  @media (max-width: 1024px) {
+    padding: 50px;
+  }
+}
 /* hero section */
 
 .hero-wrapper {
@@ -85,112 +103,152 @@ body {
     .hero-image {
       max-width: 100%;
       border: 3px solid #e5e7eb;
-      border-radius: 20px;
+      border-radius: 12px;
     }
   }
 }
 
 /* section2 */
 
-#section-2 {
-  padding: 100px;
+.section-2-container {
+  padding: 100px 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: #ffff;
-  gap: 50px;
-}
-
-#section-2 h2 {
-  display: flex;
-  justify-content: center;
-  font-size: 36px;
-  color: #a51080;
-  text-shadow: 0px 0px 30px #ee58c9;
-  text-align: center;
-}
-
-.cards {
-  display: flex;
-  width: 100%;
-  flex-wrap: wrap;
   gap: 30px;
-}
 
-.card-image-container {
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  gap: 15px;
-  justify-content: center;
-  align-items: center;
-}
+  h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+    color: #a51080;
+    text-align: center;
 
-.card-image {
-  width: 220px;
-  height: 220px;
-  object-fit: cover;
-  border: 4px solid #3695ad;
-  border-radius: 20px;
-}
+    @media (max-width: 768px) {
+      font-size: 1.5rem;
+    }
+  }
 
-.artist {
-  font-size: 18px;
-  color: #e920b7;
-  font-weight: 500;
-  text-shadow: 0px 0px 30px #ee58c9;
+  .cards-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+
+    .card-image-wrapper {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      align-items: center;
+
+      > a {
+        width: 100%;
+      }
+
+      @media (max-width: 768px) {
+        width: 100%;
+      }
+    }
+
+    .card-image {
+      width: 280px;
+      height: 340px;
+      object-fit: cover;
+      border: 3px solid #3695ad;
+      border-radius: 12px;
+
+      @media (max-width: 768px) {
+        width: 100%;
+      }
+    }
+
+    .artist {
+      color: #a51080;
+      font-weight: 600;
+      text-shadow: 0px 0px 30px #ee58c9;
+    }
+  }
 }
 
 /* section 3 */
 
-#section-3 {
+.section-3-container {
   padding: 100px;
   display: flex;
   flex-direction: column;
   text-align: center;
   background-color: #e5e7eb;
-  gap: 30px;
-}
+  gap: 10px;
 
-.quote {
-  text-align: start;
-  font-weight: 300;
-}
-.author {
-  text-align: end;
-  font-weight: 300;
+  .quote {
+    text-align: start;
+    font-weight: 300;
+    font-size: 1.4rem;
+
+    @media (max-width: 786px) {
+      font-size: 1rem;
+    }
+  }
+
+  .author {
+    text-align: end;
+    font-weight: 300;
+  }
 }
 
 /* section 4 */
 
-#section-4 {
-  padding: 100px 200px;
+.section-4-container {
+  padding: 100px 50px;
   display: flex;
   justify-content: center;
   background-color: #ffff;
-}
 
-.signup {
-  display: flex;
-  background-color: #3695ad;
-  flex: 1;
-  justify-content: space-between;
-  align-items: center;
-  padding: 30px;
-  border-radius: 10px;
-  font-size: 18px;
-  color: #e5e7eb;
-}
+  .signup-wrapper {
+    display: flex;
+    background-color: #3695ad;
+    width: 100%;
+    gap: 20px;
+    justify-content: space-between;
 
-.button-2 {
-  width: 150px;
-  height: 75px;
-  font-size: 18px;
-  color: #e5e7eb;
-  border: 3px solid #e5e7eb;
-  border-radius: 10px;
-  padding: 15px;
-  background-color: #3695ad;
+    padding: 20px;
+    border-radius: 10px;
+    color: #e5e7eb;
+
+    @media (max-width: 768px) {
+      flex-wrap: wrap;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .info-left {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 6px;
+
+      @media (max-width: 1024px) {
+        gap: 15px;
+      }
+
+      h2 {
+        font-size: 1.5rem;
+      }
+    }
+  }
+
+  .button-2 {
+    width: 150px;
+    min-width: 150px;
+    height: 75px;
+    font-size: 16px;
+    color: #e5e7eb;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #a51080;
+  }
 }
 
 /* Footer */
@@ -199,90 +257,45 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 60px;
+  height: 100px;
   background: #a51080;
-  font-size: 16px;
   color: #e5e7eb;
 }
 
 /* Media queries for responsive layout */
 
 @media (max-width: 1024px) {
-  .section-1-container {
-    padding: 50px;
-  }
-
-  .header-container {
-    flex-direction: column;
-    align-items: center;
-    padding: 30px 20px 0;
-  }
-
   .hero-wrapper {
     flex-direction: column;
 
     .hero-text-wrapper {
-      order: 2;
+      order: 1;
       align-items: center;
       text-align: center;
     }
   }
+
+  .section-2-container {
+    padding: 50px;
+  }
 }
 
 @media (max-width: 768px) {
-  .links-wrapper {
-    display: flex;
-    justify-content: center;
-  }
-
-  .hero-image-container {
-    margin-top: 30px;
-    order: -1;
-  }
-
-  .hero-image {
-    min-width: 100%;
-  }
-
-  #section-2 {
+  .section-3-container {
     padding: 50px;
   }
 
-  .cards {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  .card-image-container {
-    align-items: center;
-    text-align: center;
-  }
-
-  .card-image-container > a {
-    width: 100%;
-    height: auto;
-  }
-
-  #section-3 {
-    padding: 50px;
-  }
-
-  #section-4 {
+  .section-4-container {
     padding: 50px;
   }
 
   footer {
-    font-size: 14px;
+    font-size: 12px;
   }
 }
 
 @media (max-width: 480px) {
   .section-1-container {
     padding: 50px 20px;
-  }
-
-  h1 {
-    font-size: 1.7rem !important;
   }
 }
