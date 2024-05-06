@@ -9,11 +9,12 @@ body {
 }
 
 /* header */
-
-header,
-main,
-footer {
-  width: 100%;
+.header-container,
+.section-1-container,
+.section-2-container,
+.section-3-container,
+.section-4-container {
+  width: auto;
 }
 
 .header-container {
