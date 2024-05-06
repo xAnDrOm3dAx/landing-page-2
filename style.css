@@ -3,6 +3,13 @@ body {
 }
 
 /* header */
+.header-container,
+.section-1-container,
+.section-2-container,
+.section-3-container,
+.section-4-container {
+  margin: 0 auto;
+}
 
 .header-container {
   display: flex;
