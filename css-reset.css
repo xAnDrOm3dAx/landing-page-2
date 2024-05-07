@@ -11,8 +11,6 @@ Use a more-intuitive box-sizing model.
 Remove default margin
 */
 * {
-  margin: 0;
-  padding: 0;
 }
 
 /*
