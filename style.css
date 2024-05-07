@@ -92,6 +92,11 @@ body {
     width: 150px;
     border-radius: 8px;
     color: #e5e7eb;
+    transition: 0.3s;
+
+    &:hover {
+      background-color: #1b7389;
+    }
   }
 
   .hero-image-wrapper {
@@ -262,6 +267,11 @@ body {
     border-radius: 8px;
     padding: 1em;
     background-color: #a51080;
+    transition: 0.3s;
+
+    &:hover {
+      background-color: #ce16a0;
+    }
   }
 }
 
